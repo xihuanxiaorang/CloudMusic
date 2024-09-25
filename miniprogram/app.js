@@ -1,4 +1,9 @@
+import { setupModal, setupToast } from './utils/extendApi'
+
 App({
-  onLaunch() {},
+  onLaunch() {
+    setupToast()
+    setupModal()
+  },
   globalData: {},
 })
