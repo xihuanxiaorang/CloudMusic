@@ -1,0 +1,23 @@
+{
+  "name": "cloudmusic",
+  "version": "1.0.0",
+  "description": "仿coderwhy音乐小程序",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "xiaorang",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "commitlint": "^19.5.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
